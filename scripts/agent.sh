@@ -2,6 +2,7 @@
 sudo yum update -y
 sudo yum install ruby -y
 sudo yum install wget -y
+chmod +x gradlew
 cd /home/ec2-user
 wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
 chmod +x ./install
