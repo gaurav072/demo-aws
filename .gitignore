@@ -1,13 +1,13 @@
 HELP.md
-.gradle
+#.gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
+#!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
+#gradle/
+#gradlew
+#gradlew.bat
+#settings.gradle
 
 ### STS ###
 .apt_generated
