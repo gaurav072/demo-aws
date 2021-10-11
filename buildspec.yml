@@ -7,11 +7,11 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - sudo ./gradlew test
+      - ./gradlew test
   post_build:
     commands:
       - echo Build completed on `date`
-      - sudo ./gradlew build
+      - ./gradlew build
 artifacts:
   files:
     - target/demo-aws-0.0.1-SNAPSHOT.jar
